@@ -6,7 +6,9 @@ async function main() {
         let text = document.createTextNode(result.full_name);
         li.appendChild(text);
         elem.appendChild(li);
+        
     })
+    
 }
 
 main()
